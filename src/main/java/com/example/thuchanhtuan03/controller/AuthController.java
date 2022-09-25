@@ -67,7 +67,7 @@ public class AuthController {
     }
 
     @GetMapping("/hong")
-    @PreAuthorize("hasAnyAuthority('USER_READ')")
+//    @PreAuthorize("hasAnyAuthority('USER_READ')")
     public String hong(){
         return "HongDoan";
     }
